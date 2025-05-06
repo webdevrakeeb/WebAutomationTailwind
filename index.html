@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS First Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+  <link rel="stylesheet" href="css/output.css">
+</head>
+<body class="overflow-hidden relative">
+    <!-- Header Area Start -->
+    <header class="header py-[15px] lg:py-[22px] border-b border-[#F2F4F7]">
+        <div class="container px-[15px] mx-auto md:w-[760px] lg:w-[1140px] xl:w-[1360px]">
+            <div class="flex flex-wrap items-center">
+                <!-- Header Brand Logo Card -->
+                <div class="logo-card w-6/12  md:w-3/12 lg:w-2/12">
+                    <a href="index.html">
+                        <img src="images/webAutomation-logo.png" alt="">
+                    </a>
+                </div>
+                <!-- Header Menu Card -->
+                <div class="menu-card md:w-9/12 lg:w-7/12">
+                    <ul class="hidden md:flex flex-wrap md:justify-end lg:justify-center md:gap-[16px] lg:gap-[32px]">
+                        <li class="relative dropdown-group group">
+                            <a href="#" class="text-[16px] text-[#475467] font-medium">Products <i class="fa-solid fa-chevron-down text-[13px] group-hover:rotate-z-[-180deg] transition-all duration-300"></i></a>
+                            <ul class="absolute w-[150px] bg-[#fff] p-[20px] flex flex-col gap-[10px] top-[214%] left-[-30px] opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:top-[130%] transition-all duration-300 shadow border-t-[2px] border-[#FF4000]">
+                                <li><a href="#">Product 1</a></li>
+                                <li><a href="#">Product 2</a></li>
+                                <li><a href="#">Product 3</a></li>
+                                <li><a href="#">Product 4</a></li>
+                                <li><a href="#">Product 5</a></li>
+                            </ul>
+                        </li>
+                        <li class="relative dropdown-group group">
+                            <a href="#" class="text-[16px] text-[#475467] font-medium">Solutions <i class="fa-solid fa-chevron-down text-[13px] group-hover:rotate-z-[-180deg] transition-all duration-300"></i></a>
+                            <ul class="absolute w-[150px] bg-[#fff] p-[20px] flex flex-col gap-[10px] top-[214%] left-[-30px] opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:top-[130%] transition-all duration-300 shadow border-t-[2px] border-[#FF4000]">
+                                <li><a href="#">Solution 1</a></li>
+                                <li><a href="#">Solution 2</a></li>
+                                <li><a href="#">Solution 3</a></li>
+                                <li><a href="#">Solution 4</a></li>
+                                <li><a href="#">Solution 5</a></li>
+                            </ul>
+                        </li>
+                        <li class="relative dropdown-group group">
+                            <a href="#" class="text-[16px] text-[#475467] font-medium">Company <i class="fa-solid fa-chevron-down text-[13px] group-hover:rotate-z-[-180deg] transition-all duration-300"></i></a>
+                            <ul class="absolute w-[150px] bg-[#fff] p-[20px] flex flex-col gap-[10px] top-[214%] left-[-30px] opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:top-[130%] transition-all duration-300 shadow border-t-[2px] border-[#FF4000]">
+                                <li><a href="#">Company 1</a></li>
+                                <li><a href="#">Company 2</a></li>
+                                <li><a href="#">Company 3</a></li>
+                                <li><a href="#">Company 4</a></li>
+                                <li><a href="#">Company 5</a></li>
+                            </ul>
+                        </li>
+                        <li class="relative dropdown-group group">
+                            <a href="#" class="text-[16px] text-[#475467] font-medium">Resources <i class="fa-solid fa-chevron-down text-[13px] group-hover:rotate-z-[-180deg] transition-all duration-300"></i></a>
+                            <ul class="absolute w-[150px] bg-[#fff] p-[20px] flex flex-col gap-[10px] top-[214%] left-[-30px] opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:top-[130%] transition-all duration-300 shadow border-t-[2px] border-[#FF4000]">
+                                <li><a href="#">Resource 1</a></li>
+                                <li><a href="#">Resource 2</a></li>
+                                <li><a href="#">Resource 3</a></li>
+                                <li><a href="#">Resource 4</a></li>
+                                <li><a href="#">Resource 5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="text-[16px] text-[#475467] font-medium">Pricing</a></li>
+                    </ul>
+                </div>
+                <!-- Header Buttons Card -->
+                <div class="header-buttons lg:w-3/12 hidden lg:block">
+                    <ul class="flex flex-wrap justify-end gap-[16px]">
+                        <li><a href="#" class="text-[16px] text-[#CC2B02] font-medium py-[10px] px-[16px] border-[1px] border-[#F7B27A] rounded-[8px] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] hover:bg-[#FF4000] hover:text-[#fff] transition-all duration-300">Free trial</a></li>
+                        <li><a href="#" class="text-[16px] text-[#fff] font-medium py-[10px] px-[16px] rounded-[8px] bg-[#FF4000] border-[1px] border-[#FF4000] hover:bg-[transparent] hover:text-[#CC2B02] transition-all duration-300">Sign up</a></li>
+                    </ul>
+                </div>
+                <!-- Hamburger Icon -->
+                <div class="humberger-icon w-6/12 md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 ml-auto cursor-pointer">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Mobile Menu Card -->
+    <aside class="mobile-menu-bar transition-all duration-300 w-[320px]  h-[100vh] shadow bg-[#fff] fixed top-0 right-[-350px]">
+        <div class="aside-header shadow flex flex-wrap bg-[#fff] p-[15px]">
+            <div class="aside-logo-card w-6/12">
+                <a href="index.html">
+                    <img src="images/webAutomation-logo.png" alt="">
+                </a>
+            </div>
+            <div class="close-icon w-6/12">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 ml-auto cursor-pointer">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                  </svg>
+            </div>
+        </div>
+        <div class="aside-body py-[20px] px-[15px]">
+            <ul class="flex flex-col gap-[15px]">
+                <li class="drp-btn">
+                    <a class="text-[16px] text-[#475467] font-medium cursor-pointer">Products <i class="fa-solid fa-chevron-down text-[13px]"></i></a>
+                    <ul class="hidden flex-col gap-[10px] pt-2.5 pl-2.5 drp-item">
+                        <li class="mb-[10px]"><a href="#">Product 1</a></li>
+                        <li class="mb-[10px]"><a href="#">Product 2</a></li>
+                        <li class="mb-[10px]"><a href="#">Product 3</a></li>
+                        <li class="mb-[10px]"><a href="#">Product 4</a></li>
+                        <li><a href="#">Product 5</a></li>
+                    </ul>
+                </li>
+                <li class="drp-btn">
+                    <a class="text-[16px] text-[#475467] font-medium cursor-pointer">Solutions <i class="fa-solid fa-chevron-down text-[13px]"></i></a>
+                    <ul class="hidden flex-col gap-[10px] pt-2.5 pl-2.5 drp-item">
+                        <li class="mb-[10px]"><a href="#">Solution 1</a></li>
+                        <li class="mb-[10px]"><a href="#">Solution 2</a></li>
+                        <li class="mb-[10px]"><a href="#">Solution 3</a></li>
+                        <li class="mb-[10px]"><a href="#">Solution 4</a></li>
+                        <li><a href="#">Solution 5</a></li>
+                    </ul>
+                </li>
+                <li class="drp-btn">
+                    <a class="text-[16px] text-[#475467] font-medium cursor-pointer">Company <i class="fa-solid fa-chevron-down text-[13px]"></i></a>
+                    <ul class="hidden flex-col gap-[10px] pt-2.5 pl-2.5 drp-item">
+                        <li class="mb-[10px]"><a href="#">Company</a></li>
+                        <li class="mb-[10px]"><a href="#">Company</a></li>
+                        <li class="mb-[10px]"><a href="#">Company</a></li>
+                        <li class="mb-[10px]"><a href="#">Company</a></li>
+                        <li><a href="#">Company</a></li>
+                    </ul>
+                </li>
+                <li class="drp-btn">
+                    <a class="text-[16px] text-[#475467] font-medium cursor-pointer">Resources <i class="fa-solid fa-chevron-down text-[13px]"></i></a>
+                    <ul class="hidden flex-col gap-[10px] pt-2.5 pl-2.5 drp-item">
+                        <li class="mb-[10px]"><a href="#">Resource 1</a></li>
+                        <li class="mb-[10px]"><a href="#">Resource 2</a></li>
+                        <li class="mb-[10px]"><a href="#">Resource 3</a></li>
+                        <li class="mb-[10px]"><a href="#">Resource 4</a></li>
+                        <li><a href="#">Resource 5</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="text-[16px] text-[#475467] font-medium drp-btn cursor-pointer">Pricing</i></a>
+                </li>
+            </ul>
+            <!-- Header Buttons Card -->
+            <div class="header-buttons pt-[50px]">
+                <ul class="flex flex-wrap justify-center gap-[16px]">
+                    <li><a href="#" class="text-[16px] text-[#CC2B02] font-medium py-[10px] px-[16px] border-[1px] border-[#F7B27A] rounded-[8px] shadow-[0px_1px_2px_0px_rgba(16,24,40,0.05)] hover:bg-[#FF4000] hover:text-[#fff] transition-all duration-300">Free trial</a></li>
+                    <li><a href="#" class="text-[16px] text-[#fff] font-medium py-[10px] px-[16px] rounded-[8px] bg-[#FF4000] border-[1px] border-[#FF4000] hover:bg-[transparent] hover:text-[#CC2B02] transition-all duration-300">Sign up</a></li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.show-sidebar {
+    right: 0;
+}
+
+.drp-item.show-drp {
+    display: flex;
+}
