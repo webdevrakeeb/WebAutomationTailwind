@@ -12,3 +12,16 @@ body {
 .drp-item.show-drp {
     display: flex;
 }
+
+@keyframes bannermove {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+.custom-banner-animation {
+    animation: bannermove 20s linear infinite;
+}
