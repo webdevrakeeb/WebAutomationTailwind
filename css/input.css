@@ -13,15 +13,10 @@ body {
     display: flex;
 }
 
-@keyframes bannermove {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-  
-.custom-banner-animation {
-    animation: bannermove 20s linear infinite;
+.slick-prev, .slick-next {
+    display: none !important;
+}
+
+.slick-slide {
+    padding: 0 0.5rem;
 }

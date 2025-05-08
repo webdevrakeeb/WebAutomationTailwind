@@ -6,7 +6,17 @@
   <title>Tailwind CSS First Project</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" href="css/output.css">
+  <style>
+    .slick-prev, .slick-next {
+        display: none !important;
+    }
+
+    .slick-slide {
+        padding: 0 1rem;
+    }
+  </style>
 </head>
 <body class="overflow-x-hidden relative">
     <!-- Header Area Start -->
@@ -198,84 +208,271 @@
         <div class="img-carousel-title">
             <h3 class="text-[14px] text-[#0BA5EC] uppercase text-center">TRUSTED BY 20,000+ CUSTOMERS WORLDWIDE</h3>
         </div>
-        <article class="flex gap-[50px] w-[200%] pt-[32px] pb-[24px] custom-banner-animation">
-            <div class="w-full ">
-                <ul class="flex gap-[50px] list-none p-0 m-0">
-                    <li class="w-full">
-                        <img src="images/slider-brand-one.png" class="block w-full h-[30px]" />
-                    </li>
-                    <li class="w-full">
-                        <img src="images/slider-brand-two.png" class="block w-full h-[30px]" />
-                    </li>
-                    <li class="w-full">
-                        <img src="images/slider-brand-three.png" class="block w-full h-[30px]" />
-                    </li>
-                    <li class="w-full">
-                        <img src="images/slider-brand-four.png" class="block w-full h-[30px]" />
-                    </li>
-                    <li class="w-full">
-                        <img src="images/slider-brand-five.png" class="block w-full h-[30px]" />
-                    </li>
-                    <li class="w-full">
-                        <img src="images/slider-brand-six.png" class="block w-full h-[30px]" />
-                    </li>
-                    <li class="w-full">
-                        <img src="images/slider-brand-seven.png" class="block w-full h-[30px]" />
-                    </li>
-                    <li class="w-full">
-                        <img src="images/slider-brand-eight.png" class="block w-full h-[30px]" />
-                    </li>
-                </ul>
-            </div>
-            <div class="w-full">
-                <ul class="flex gap-[50px] list-none p-0 m-0">
-                    <li class="w-full">
-                        <img src="images/slider-brand-one.png" class="block w-full h-[30px]" />
-                    </li>
-                    <li class="w-full">
-                        <img src="images/slider-brand-two.png" class="block w-full h-[30px]" />
-                    </li>
-                    <li class="w-ful">
-                        <img src="images/slider-brand-three.png" class="block w-full h-[30px]" />
-                    </li>
-                    <li class="w-full">
-                        <img src="images/slider-brand-four.png" class="block w-full h-[30px]" />
-                    </li>
-                    <li class="w-full">
-                        <img src="images/slider-brand-five.png" class="block w-full h-[30px]" />
-                    </li>
-                    <li class="w-full">
-                        <img src="images/slider-brand-six.png" class="block w-full h-[30px]" />
-                    </li>
-                    <li class="w-full">
-                        <img src="images/slider-brand-seven.png" class="block w-full h-[30px]" />
-                    </li>
-                    <li class="w-full">
-                        <img src="images/slider-brand-eight.png" class="block w-full h-[30px]" />
-                    </li>
-                </ul>
-            </div>
-        </article>
+        <div class="slider pt-[30px]">
+            <!-- Each slide -->
+            <div><img class="h-[30px] mx-auto object-contain" src="images/slider-brand-one.png" alt="1" /></div>
+            <div><img class="h-[30px] mx-auto object-contain" src="images/slider-brand-two.png" alt="2" /></div>
+            <div><img class="h-[30px] mx-auto object-contain" src="images/slider-brand-three.png" alt="3" /></div>
+            <div><img class="h-[30px] mx-auto object-contain" src="images/slider-brand-four.png" alt="4" /></div>
+            <div><img class="h-[30px] mx-auto object-contain" src="images/slider-brand-five.png" alt="5" /></div>
+            <div><img class="h-[30px] mx-auto object-contain" src="images/slider-brand-six.png" alt="6" /></div>
+            <div><img class="h-[30px] mx-auto object-contain" src="images/slider-brand-eight.png" alt="7" /></div>
+            <div><img class="h-[30px] mx-auto object-contain" src="images/slider-brand-one.png" alt="1" /></div>
+            <div><img class="h-[30px] mx-auto object-contain" src="images/slider-brand-two.png" alt="2" /></div>
+            <div><img class="h-[30px] mx-auto object-contain" src="images/slider-brand-three.png" alt="3" /></div>
+            <div><img class="h-[30px] mx-auto object-contain" src="images/slider-brand-four.png" alt="4" /></div>
+            <div><img class="h-[30px] mx-auto object-contain" src="images/slider-brand-five.png" alt="5" /></div>
+            <div><img class="h-[30px] mx-auto object-contain" src="images/slider-brand-six.png" alt="6" /></div>
+            <div><img class="h-[30px] mx-auto object-contain" src="images/slider-brand-eight.png" alt="7" /></div>
+        </div>
     </section>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+    <!-- Features Area Start -->
+    <section class="features pb-[30px] md:pb-[60px] lg:pt-[80px] lg:pb-[120px]">
+        <div class="container mx-auto md:w-[760px] lg:w-[1140px] xl:w-[1360px] px-[15px]">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-[20px] md:gap-[25px] lg:gap-[36px]">
+                <!-- Single Feature -->
+                <div class="p-[33px] bg-[#EDF1F6] border border-[rgba(255,255,255,0.20)] rounded-[8px]">
+                    <div class="card-top">
+                        <div class="icon-card">
+                            <img class="mx-auto" src="images/boost_success-rates.svg.png" alt="">
+                        </div>
+                        <div class="cnt-card">
+                            <h3 class="text-[#101828] text-[18.281px] font-medium leading-[175.043%] tracking-[0.2px] text-center pt-[16px] pb-[7px]">>99.7% success rate </h3>
+                            <p class="text-[#475467] text-[14px] text-center leading-[205.714%] tracking-[0.36] px-[30px] pb-[18px]">Overcome blocks with automated IP
+                                rotation, browser fingerprinting, JS
+                                rendering, and CAPTCHA solving</p>
+                        </div>
+                    </div>
+                    <div class="bottom-card border-t border-t-[rgba(82,99,115,0.30)]">
+                        <p class="text-[#E04F16] text-[16px] font-medium text-center leading-[205.714%] tracking-[0.36] px-[30px] pt-[16.61px]">84% of dev teams experience less
+                            blocks and errors.</p>
+                    </div>
+                </div>
+                <!-- Single Feature -->
+                <div class="p-[33px] bg-[#EDF1F6] border border-[rgba(255,255,255,0.20)] rounded-[8px]">
+                    <div class="card-top">
+                        <div class="icon-card">
+                            <img class="mx-auto" src="images/boost_success-rates2.png" alt="">
+                        </div>
+                        <div class="cnt-card">
+                            <h3 class="text-[#101828] text-[18.281px] font-medium leading-[175.043%] tracking-[0.2px] text-center pt-[16px] pb-[7px]">Seamless Integration</h3>
+                            <p class="text-[#475467] text-[14px] text-center leading-[205.714%] tracking-[0.36] px-[30px] pb-[18px]">Enjoy a cloud-based, auto-scaling
+                                scraping infrastructure. No servers or
+                                expert skills required.</p>
+                        </div>
+                    </div>
+                    <div class="bottom-card border-t border-t-[rgba(82,99,115,0.30)]">
+                        <p class="text-[#E04F16] text-[16px] font-medium text-center leading-[205.714%] tracking-[0.36] px-[30px] pt-[16.61px]">81% of  of dev teams report reduced
+                            and maintenance</p>
+                    </div>
+                </div>
+                <!-- Single Feature -->
+                <div class="p-[33px] bg-[#EDF1F6] border border-[rgba(255,255,255,0.20)] rounded-[8px]">
+                    <div class="card-top">
+                        <div class="icon-card">
+                            <img class="mx-auto" src="images/boost_success-rates.svg3.png" alt="">
+                        </div>
+                        <div class="cnt-card">
+                            <h3 class="text-[#101828] text-[18.281px] font-medium leading-[175.043%] tracking-[0.2px] text-center pt-[16px] pb-[7px]">Scraping Simplified </h3>
+                            <p class="text-[#475467] text-[14px] text-center leading-[205.714%] tracking-[0.36] px-[30px] pb-[18px]">Overcome blocks with automated IP
+                                rotation, browser fingerprinting, JS
+                                rendering, and CAPTCHA solving</p>
+                        </div>
+                    </div>
+                    <div class="bottom-card border-t border-t-[rgba(82,99,115,0.30)]">
+                        <p class="text-[#E04F16] text-[16px] font-medium text-center leading-[205.714%] tracking-[0.36] px-[30px] pt-[16.61px]">92% of  of dev teams report reduced
+                            operational costs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Features Area End -->
+
+    <!-- Scraping Area Start -->
+    <section class="py-[30px] md:py-[48px] lg:py-[96px] bg-[#EDF1F6]">
+        <div class="container mx-auto md:w-[760px] lg:w-[1140px] xl:w-[1360px] px-[15px]">
+            <h1 class="text-center text-[22px] md:text-[32px] text-[#3D7FFC] leading-[125%] md:leading-[175%] tracking-[1.2px]">Scale scraping-ready browsers with unlimited concurrent sessions</h1>
+            <img class="w-full" src="images/scraping-banner.png" alt="">
+        </div>
+    </section>
+    <!-- Scraping Area End -->
+
+    <!-- Sample Data Area Start -->
+    <section class="sample-data py-[30px] md:pt-[48px] lg:py-[96px] bg-[#F5F5F5]">
+        <div class="container mx-auto md:w-[760px] lg:w-[1140px] xl:w-[1360px] px-[15px]">
+            <div class="title-card">
+                <h2 class="text-center text-[#101828] text-[25px] md:text-[32px] font-semibold leading-[137.5%] tracking-[-0.64]">Sample Data</h2>
+                <p class="text-center text-[#344054] text-[16px] leading-[125%]">Automate your unlocking processes using AI-based features</p>
+            </div>
+            <div class="all-cards pt-6 md:py-[64px] gap-y-4 md:gap-y-[32px] lg:gap-y-[64px] md:gap-x-[32px] grid md:grid-cols-2 lg:grid-cols-3">
+                <!-- Single Card -->
+                <div class="single-card flex flex-col justify-between shadow-[0_1px_2px_0_rgba(16,24,40,0.05)] border border-[#D1D1D6] bg-[#fff] rounded-[12px]">
+                    <div>
+                        <div class="top-cntn p-[24px] flex items-center justify-between">
+                            <div class="icon-card w-[48px]">
+                                <img src="images/sd-icon-one.png" alt="">
+                            </div>
+                            <div class="title-card w-[calc(100%-60px)]">
+                                <h4 class="text-[16px] text-[#344054] leading-[150%] font-semibold">Browser Fingerprinting </h4>
+                            </div>
+                        </div>
+                        <div class="middle-cntn px-[24px] pb-[24px]">
+                            <p class="text-[#1A1A1E] text-[14px] leading-[142.857%] pr-[95px]">Emulates real users' browsers to simulate
+                                a human experience</p>
+                        </div>
+                    </div>
+                    <div class="bottom-card flex items-center justify-between border-t border-t-[#D1D1D6] px-[24px] py-[17px]">
+                        <div class="left flex items-center gap-[6px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E04F16" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+                            </svg>
+                            <span class="text-[14px] text-[#E04F16] leading-[142.857%]">471</span>
+                        </div>
+                        <div class="right">
+                            <a href="#" class="py-[8px] px-[14px] flex text-[14px] text-[#CC2B02] font-medium leading-[142.857%] border border-[#F7B27A] rounded-[8px] shadow-[0_1px_2px_0_rgba(16,24,40,0.05)]">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Card -->
+                <div class="single-card shadow-[0_1px_2px_0_rgba(16,24,40,0.05)] border border-[#D1D1D6] bg-[#fff] rounded-[12px]">
+                    <div class="top-cntn p-[24px] flex items-center justify-between">
+                        <div class="icon-card w-[48px]">
+                            <img src="images/sd-icon-two.png" alt="">
+                        </div>
+                        <div class="title-card w-[calc(100%-60px)]">
+                            <h4 class="text-[16px] text-[#344054] leading-[150%] font-semibold">CAPTCHA Solving</h4>
+                        </div>
+                    </div>
+                    <div class="middle-cntn px-[24px] pb-[24px]">
+                        <p class="text-[#1A1A1E] text-[14px] leading-[142.857%]">Amazon scraper to extract price & product data from Amazon category, department, product or search pages</p>
+                    </div>
+                    <div class="bottom-card flex items-center justify-between border-t border-t-[#D1D1D6] px-[24px] py-[17px]">
+                        <div class="left flex items-center gap-[6px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E04F16" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+                            </svg>
+                            <span class="text-[14px] text-[#E04F16] leading-[142.857%]">471</span>
+                        </div>
+                        <div class="right">
+                            <a href="#" class="py-[8px] px-[14px] flex text-[14px] text-[#CC2B02] font-medium leading-[142.857%] border border-[#F7B27A] rounded-[8px] shadow-[0_1px_2px_0_rgba(16,24,40,0.05)]">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Card -->
+                <div class="single-card shadow-[0_1px_2px_0_rgba(16,24,40,0.05)] border border-[#D1D1D6] bg-[#fff] rounded-[12px]">
+                    <div class="top-cntn p-[24px] flex items-center justify-between">
+                        <div class="icon-card w-[48px]">
+                            <img src="images/sd-icon-three.png" alt="">
+                        </div>
+                        <div class="title-card w-[calc(100%-60px)]">
+                            <h4 class="text-[16px] text-[#344054] leading-[150%] font-semibold">Manages Specific User Agents</h4>
+                        </div>
+                    </div>
+                    <div class="middle-cntn px-[24px] pb-[24px]">
+                        <p class="text-[#1A1A1E] text-[14px] leading-[142.857%]">Amazon scraper to extract price & product data from Amazon category, department, product or search pages</p>
+                    </div>
+                    <div class="bottom-card flex items-center justify-between border-t border-t-[#D1D1D6] px-[24px] py-[17px]">
+                        <div class="left flex items-center gap-[6px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E04F16" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+                            </svg>
+                            <span class="text-[14px] text-[#E04F16] leading-[142.857%]">471</span>
+                        </div>
+                        <div class="right">
+                            <a href="#" class="py-[8px] px-[14px] flex text-[14px] text-[#CC2B02] font-medium leading-[142.857%] border border-[#F7B27A] rounded-[8px] shadow-[0_1px_2px_0_rgba(16,24,40,0.05)]">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Card -->
+                <div class="single-card shadow-[0_1px_2px_0_rgba(16,24,40,0.05)] border border-[#D1D1D6] bg-[#fff] rounded-[12px]">
+                    <div class="top-cntn p-[24px] flex items-center justify-between">
+                        <div class="icon-card w-[48px]">
+                            <img src="images/sd-icon-fout.png" alt="">
+                        </div>
+                        <div class="title-card w-[calc(100%-60px)]">
+                            <h4 class="text-[16px] text-[#344054] leading-[150%] font-semibold">Handles Cookies</h4>
+                        </div>
+                    </div>
+                    <div class="middle-cntn px-[24px] pb-[24px]">
+                        <p class="text-[#1A1A1E] text-[14px] leading-[142.857%]">Amazon scraper to extract price & product data from Amazon category, department, product or search pages</p>
+                    </div>
+                    <div class="bottom-card flex items-center justify-between border-t border-t-[#D1D1D6] px-[24px] py-[17px]">
+                        <div class="left flex items-center gap-[6px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E04F16" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+                            </svg>
+                            <span class="text-[14px] text-[#E04F16] leading-[142.857%]">471</span>
+                        </div>
+                        <div class="right">
+                            <a href="#" class="py-[8px] px-[14px] flex text-[14px] text-[#CC2B02] font-medium leading-[142.857%] border border-[#F7B27A] rounded-[8px] shadow-[0_1px_2px_0_rgba(16,24,40,0.05)]">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Card -->
+                <div class="single-card shadow-[0_1px_2px_0_rgba(16,24,40,0.05)] border border-[#D1D1D6] bg-[#fff] rounded-[12px]">
+                    <div class="top-cntn p-[24px] flex items-center justify-between">
+                        <div class="icon-card w-[48px]">
+                            <img src="images/sd-icon-five.png" alt="">
+                        </div>
+                        <div class="title-card w-[calc(100%-60px)]">
+                            <h4 class="text-[16px] text-[#344054] leading-[150%] font-semibold">Automatic Retries and IP Rotation</h4>
+                        </div>
+                    </div>
+                    <div class="middle-cntn px-[24px] pb-[24px]">
+                        <p class="text-[#1A1A1E] text-[14px] leading-[142.857%]">Amazon scraper to extract price & product data from Amazon category, department, product or search pages</p>
+                    </div>
+                    <div class="bottom-card flex items-center justify-between border-t border-t-[#D1D1D6] px-[24px] py-[17px]">
+                        <div class="left flex items-center gap-[6px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E04F16" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+                            </svg>
+                            <span class="text-[14px] text-[#E04F16] leading-[142.857%]">471</span>
+                        </div>
+                        <div class="right">
+                            <a href="#" class="py-[8px] px-[14px] flex text-[14px] text-[#CC2B02] font-medium leading-[142.857%] border border-[#F7B27A] rounded-[8px] shadow-[0_1px_2px_0_rgba(16,24,40,0.05)]">View</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Card -->
+                <div class="single-card shadow-[0_1px_2px_0_rgba(16,24,40,0.05)] border border-[#D1D1D6] bg-[#fff] rounded-[12px]">
+                    <div class="top-cntn p-[24px] flex items-center justify-between">
+                        <div class="icon-card w-[48px]">
+                            <img src="images/sd-icon-six.png" alt="">
+                        </div>
+                        <div class="title-card w-[calc(100%-60px)]">
+                            <h4 class="text-[16px] text-[#344054] leading-[150%] font-semibold">Data Integrity Validations</h4>
+                        </div>
+                    </div>
+                    <div class="middle-cntn px-[24px] pb-[24px]">
+                        <p class="text-[#1A1A1E] text-[14px] leading-[142.857%]">Amazon scraper to extract price & product data from Amazon category, department, product or search pages</p>
+                    </div>
+                    <div class="bottom-card flex items-center justify-between border-t border-t-[#D1D1D6] px-[24px] py-[17px]">
+                        <div class="left flex items-center gap-[6px]">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#E04F16" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
+                            </svg>
+                            <span class="text-[14px] text-[#E04F16] leading-[142.857%]">471</span>
+                        </div>
+                        <div class="right">
+                            <a href="#" class="py-[8px] px-[14px] flex text-[14px] text-[#CC2B02] font-medium leading-[142.857%] border border-[#F7B27A] rounded-[8px] shadow-[0_1px_2px_0_rgba(16,24,40,0.05)]">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sample Data Area End -->
+
+
 
 
 
     <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Slick JS -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/custom.js"></script>
 </body>
 </html>
